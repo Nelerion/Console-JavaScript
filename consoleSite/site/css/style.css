@@ -1,0 +1,132 @@
+.console {
+
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 978px;
+    height: 512px;
+    background-color: rgb(15, 15, 15);
+    border: 1px outset rgb(182, 178, 178);
+    flex-direction: column;
+    transition: 100ms;
+
+}
+
+.menu_console {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cmd_icon {
+    width: 17px;
+    height: 13px;
+    margin-left: 8px;
+}
+
+.logo_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cmd_title {
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.btn_o {
+    text-align: center;
+
+}
+
+.btn span:not(:last-child) {
+    margin-right: 15px;
+}
+
+.btn_th {
+    margin-right: 15px;
+
+}
+
+
+
+.btn_o, .btn_t, .btn_th {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.btn button:hover {
+    background-color: rgb(248, 239, 239);
+}
+
+.content_console {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-y: scroll;
+
+}
+
+.text {
+    width: 600px;
+    height: 100px;
+    color: lightgray
+}
+
+.blockText {}
+
+.insertText {
+    color: rgb(211, 211, 211);
+    background-color: rgb(15, 15, 15);
+    border: none;
+    padding-left: 5px;
+    outline: none;
+    margin-top: auto;
+    text-align: left;
+
+}
+
+.textInsertGlobal {
+    color: rgb(8, 194, 8);
+    display: inline-flex;
+    margin-left: 5px;
+
+}
+
+.box {}
+
+.ppp {
+    margin: 0;
+    padding: 0;
+}
+
+.divHelps {}
+
+.chak {
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 260px;
+    margin-top: -150px;
+}
