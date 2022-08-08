@@ -1,5 +1,5 @@
 ____
- ### :computer: *`Console on React`*
+ ### :computer: *`Console on JavaScript`*
  Так же есть [**версия**](https://github.com/Nelerion/Console-React) на React 
 ____
 ![1](https://user-images.githubusercontent.com/95306473/183504288-891d6cab-b9ee-4f1e-b4e9-117ab4518d23.png)
